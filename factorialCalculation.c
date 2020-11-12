@@ -1,7 +1,7 @@
 #include<stdio.h>
 int fact(int number) // Calculates factorial
 {
-	if(number == 1 || number == 0)
+	if(number < 2)
 	return 1;
 	else
 	return number * fact(number - 1);

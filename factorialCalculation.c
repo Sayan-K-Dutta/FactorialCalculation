@@ -12,4 +12,5 @@ int main(int argc, char *argv[])
 	printf("Enter a number for factorial calculation\n");
 	scanf("%d",&num);
 	printf("Factorial of %d is %d\n",num,fact(num));
+        return 0;
 }
